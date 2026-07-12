@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom premium slim scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0A09;
+}
+::-webkit-scrollbar-thumb {
+  background: #201E1D;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C49A6C;
+}
+
+/* Base resets to avoid default cursor on custom interactive elements */
+body {
+  cursor: none !important;
+}
+
+button, a, input, [role="button"], textarea {
+  cursor: none !important;
+}
+
+/* Smooth Scrolling wrapper */
+html {
+  scroll-behavior: smooth;
+  background-color: #0B0A09;
+}

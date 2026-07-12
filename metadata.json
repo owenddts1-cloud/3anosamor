@@ -1,0 +1,6 @@
+{
+  "name": "Três Anos com Ludmila",
+  "description": "Uma jornada cinematográfica interativa e personalizável para comemorar os três anos de namoro de Owen e Ludmila.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
