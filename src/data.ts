@@ -16,7 +16,7 @@ export const defaultSettings: AppSettings = {
   anniversaryDateString: "2023-07-12",
   primaryColor: "#0B0A09", // Deep Charcoal
   accentColor: "#C49A6C",  // Warm Gold/Champagne
-  bgTrackUrl: "https://archive.org/download/googoodollsiris/Goo%20Goo%20Dolls%20-%20Iris.mp3" // Iris by Goo Goo Dolls
+  bgTrackUrl: "/audios/Goo Goo Dolls - Iris ...(Acoustic).mp3" // Acoustic track from local public folder
 };
 
 export const defaultMemories: MemoryItem[] = [

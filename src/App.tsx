@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Heart, Sparkles, MapPin, Calendar, Compass } from 'lucide-react';
 import { defaultSettings, defaultMemories, defaultChapters } from './data';
 import { AppSettings, MemoryItem, LoveChapter } from './types';
+import { GALLERY_IMAGES } from './galleryData';
 
 // Component Imports
 import CanvasParticles from './components/CanvasParticles';
@@ -24,14 +25,43 @@ export default function App() {
     return localStorage.getItem('theme') === 'dark';
   });
 
-  // Load from local storage on mount
+  // Load from local storage on mount with automatic legacy data migration
   useEffect(() => {
     const savedSettings = localStorage.getItem('ludmila_anniversary_settings');
     const savedMemories = localStorage.getItem('ludmila_anniversary_memories');
     const savedChapters = localStorage.getItem('ludmila_anniversary_chapters');
 
-    if (savedSettings) setSettings(JSON.parse(savedSettings));
-    if (savedMemories) setMemories(JSON.parse(savedMemories));
+    if (savedSettings) {
+      const parsedSettings = JSON.parse(savedSettings);
+      // Auto-upgrade path to acoustic audio file
+      if (!parsedSettings.bgTrackUrl || parsedSettings.bgTrackUrl.includes('googoodollsiris')) {
+        parsedSettings.bgTrackUrl = "/audios/Goo Goo Dolls - Iris ...(Acoustic).mp3";
+        localStorage.setItem('ludmila_anniversary_settings', JSON.stringify(parsedSettings));
+      }
+      setSettings(parsedSettings);
+    }
+
+    if (savedMemories) {
+      const parsedMemories = JSON.parse(savedMemories);
+      let hasUpdates = false;
+      const upgradedMemories = parsedMemories.map((m: MemoryItem, idx: number) => {
+        if (m.mediaUrl && m.mediaUrl.startsWith('/images/foto')) {
+          hasUpdates = true;
+          if (GALLERY_IMAGES && GALLERY_IMAGES.length > idx) {
+            return { ...m, mediaUrl: GALLERY_IMAGES[idx] };
+          }
+        }
+        return m;
+      });
+
+      if (hasUpdates) {
+        localStorage.setItem('ludmila_anniversary_memories', JSON.stringify(upgradedMemories));
+        setMemories(upgradedMemories);
+      } else {
+        setMemories(parsedMemories);
+      }
+    }
+
     if (savedChapters) setChapters(JSON.parse(savedChapters));
   }, []);
 
