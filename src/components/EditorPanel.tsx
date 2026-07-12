@@ -191,13 +191,17 @@ export default function EditorPanel({
                       />
                     </div>
                     <div className="space-y-1.5">
-                      <label className="text-stone-500 font-medium">URL da Música Ambiente (MP3)</label>
+                      <label className="text-stone-500 font-medium">URL da Música Ambiente (MP3/MP4)</label>
                       <input
                         type="text"
                         value={settings.bgTrackUrl}
                         onChange={(e) => handleSettingChange('bgTrackUrl', e.target.value)}
                         className="w-full bg-white border border-stone-200 rounded-lg p-2.5 text-stone-800 focus:outline-none focus:border-[#C49A6C] shadow-sm"
+                        placeholder="Ex: /music.mp3"
                       />
+                      <span className="block text-[10px] text-stone-400 font-sans leading-tight mt-1">
+                        <strong>Dica:</strong> Para máxima estabilidade, salve a música na pasta <code className="bg-stone-100 p-0.5 rounded text-[#D9383A]">public/</code> com o nome <code className="bg-stone-100 p-0.5 rounded">music.mp3</code> ou <code className="bg-stone-100 p-0.5 rounded">music.mp4</code> e mude este campo para <code className="text-[#C49A6C]">/music.mp3</code> ou <code className="text-[#C49A6C]">/music.mp4</code>. URLs do YouTube não funcionam.
+                      </span>
                     </div>
 
                     <div className="pt-6 border-t border-stone-200">
