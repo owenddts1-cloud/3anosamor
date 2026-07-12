@@ -219,11 +219,25 @@ export default function App() {
             <span className="font-serif italic text-2xl text-[#C49A6C] block mb-6 font-extrabold">Minha amada {settings.coupleName2},</span>
             
             <p className="text-stone-900 dark:text-stone-100 font-sans text-xs sm:text-sm leading-relaxed mb-6 whitespace-pre-line font-normal transition-colors duration-300">
-              Construir essa vida ao seu lado é de longe o maior e mais bonito capítulo de toda a minha história. Obrigado por ser minha melhor amiga, minha cúmplice de aventuras e o amor da minha vida. 
-              {"\n\n"}
-              Três anos se passaram como um sopro de felicidade, e ao mesmo tempo sinto como se te conhecesse de outras vidas. Que continuemos caminhando de mãos dadas, rindo das bobagens do cotidiano, descobrindo novos cafés e cultivando esse amor leve, sincero e inabalável que nos une.
-              {"\n\n"}
-              Eu te amo hoje, amanhã, nos próximos três anos e para todo o sempre.
+              {`Três anos de NÓS, meu amor.
+
+Às vezes eu paro, fico apenas te observando e a única coisa que passa pela minha cabeça é: que linda, que linda, que linda meu Deus! Você é, sem dúvidas, uma das melhores coisas que já aconteceram na minha vida — se não a mais linda e perfeita de todas. Eu te amo demais, meu amor! Estar com você é ter a certeza de que encontrei a minha luz, a minha paz e o meu refrigério. Você trouxe o significado real e total do que é o amor para os meus dias. Foi com você que aprendi a amar de verdade, porque você é o meu primeiro amor... e sei que será o último. Vou ser eternamente apaixonado por você e te olhar para sempre com esses olhos de admiração, amor e carinho. Você merece tudo de melhor que existe no mundo.
+
+Esses três anos foram um período de muito aprendizado real para nós dois. Nós aprendemos a consertar pedaços quebrados, a reatar laços, a praticar o perdão verdadeiro e a exercitar uma paciência que nem sabíamos que tínhamos. Tivemos que aprender a amar um ao outro não só nos dias bons, mas no momento da dificuldade, no calor das discussões e quando os sentimentos pareciam confusos. Aprendemos muito a lidar com o jeito, as manias e o coração do outro. O nosso processo de amadurecimento está só começando, e olhar para trás e ver o quanto evoluímos me enche de certeza.
+
+Quero te dizer hoje que estou renovando a minha vontade de estar e permanecer com você por toda a minha vida! Escolher ficar com alguém pode parecer uma decisão simples para quem vê de fora, mas nós sabemos que não é. É uma das escolhas mais difíceis e maduras que existem, pois adaptar-se, mudar e ceder por outra pessoa exige muito de nós. Mas, pelo carinho e pelo cuidado que Deus tem demonstrado com a sua vida e com a nossa história, eu quero continuar fazendo essa escolha todos os dias.
+
+Hoje eu só quero reafirmar o quanto você é um presente direto de Deus na minha vida. Mesmo nos momentos em que estou te apoiando e ajudando, a verdade é que eu aprendo muito mais com você, meu amor. Você é uma instrução e inspiração para mim em tantas coisas... Quero te agradecer profundamente por tanta mudança, por cada detalhe que você modificou no seu jeito, primeiro por amor a Deus e depois por amor a mim. Essa sua transformação mudou tudo. Hoje eu te vejo com outros olhos; você tem um brilho diferente, mais maduro, mais radiante. Faça do dia de hoje um marco na sua vida!
+
+Tenho uma gratidão imensa por quem você é. Você tem me deixado muito orgulhoso da mulher e companheira MARAVILHOSA que se tornou. Extremamente cuidadosa, batalhadora, uma mulher que busca os seus objetivos e que quer ser mais dependente de Deus a cada dia. Eu não só te apoio, como faço questão de estar ao seu lado em cada projeto, plano e sonho para o nosso futuro. Eu estou com você para o que der e vier, minha vida.
+
+Que nós venhamos a ser muito felizes para sempre, crescendo juntos, evoluindo e mantendo sempre Deus no centro de tudo. Te amo muito, minha gata, minha vida!
+
+Construir essa vida ao seu lado é de longe o maior e mais bonito capítulo de toda a minha história. Obrigado por ser minha melhor amiga, minha cúmplice de aventuras e o amor da minha vida.
+
+Três anos se passaram como um sopro de felicidade, e ao mesmo tempo sinto como se te conhecesse de outras vidas. Que continuemos caminhando de mãos dadas, rindo das bobagens do cotidiano, descobrindo novos cafés e cultivando esse amor leve, sincero e inabalável que nos une.
+
+Eu te amo hoje, amanhã, nos próximos três anos e para todo o sempre.`}
             </p>
 
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pt-6 border-t border-stone-100 dark:border-stone-800">
