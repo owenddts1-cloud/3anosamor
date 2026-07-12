@@ -215,29 +215,22 @@ export default function App() {
           >
             {/* Elegant visual gold frame layout inside the letter card */}
             <div className="absolute inset-4 border border-[#C49A6C]/15 rounded-2xl pointer-events-none" />
-            
             <span className="font-serif italic text-2xl text-[#C49A6C] block mb-6 font-extrabold">Minha amada {settings.coupleName2},</span>
             
             <p className="text-stone-900 dark:text-stone-100 font-sans text-xs sm:text-sm leading-relaxed mb-6 whitespace-pre-line font-normal transition-colors duration-300">
-              {`Três anos de NÓS, meu amor.
+              {`TRÊS ANOS de nós, minha Princesa! S2
 
-Às vezes eu paro, fico apenas te observando e a única coisa que passa pela minha cabeça é: que linda, que linda, que linda meu Deus! Você é, sem dúvidas, uma das melhores coisas que já aconteceram na minha vida — se não a mais linda e perfeita de todas. Eu te amo demais, meu amor! Estar com você é ter a certeza de que encontrei a minha luz, a minha paz e o meu refrigério. Você trouxe o significado real e total do que é o amor para os meus dias. Foi com você que aprendi a amar de verdade, porque você é o meu primeiro amor... e sei que será o último. Vou ser eternamente apaixonado por você e te olhar para sempre com esses olhos de admiração, amor e carinho. Você merece tudo de melhor que existe no mundo.
+Às vezes eu fico só te olhando e pensando: que linda, que linda, que linda meu Deus... Você é, de verdade, uma das melhores coisas que já aconteceu na minha vida, a mais linda de todas. Eu te amo demais, meu amor! Estar com você me dá uma certeza tão grande, você é minha luz, minha paz e meu refrigério... é o significado real e total do que é o amor pra mim. Foi com você que aprendi o que é amar de verdade, porque você é o meu primeiro amor, e vai ser o último... Vou ser pra sempre apaixonado por você e te olhar com todo o carinho do mundo, porque você merece o melhor de tudo, minha gata, minha vidaaaa...
 
-Esses três anos foram um período de muito aprendizado real para nós dois. Nós aprendemos a consertar pedaços quebrados, a reatar laços, a praticar o perdão verdadeiro e a exercitar uma paciência que nem sabíamos que tínhamos. Tivemos que aprender a amar um ao outro não só nos dias bons, mas no momento da dificuldade, no calor das discussões e quando os sentimentos pareciam confusos. Aprendemos muito a lidar com o jeito, as manias e o coração do outro. O nosso processo de amadurecimento está só começando, e olhar para trás e ver o quanto evoluímos me enche de certeza.
+Esses 3 anos de nós foram de muito aprendizado pra gente, né? A gente teve que consertar muitos pedaços quebrados, reatar laços, perdoar de verdade e ter uma paciência de outro mundo que a gente nem sabia que tinha. Tivemos que aprender a amar um outro no meio da dificuldade, no meio das discussões e quando as coisas pareciam meio confusas. A gente aprendeu muito a lidar com o jeito, as manias e o sentimento do outro. E o começo do nosso processo de amadurecimento tá só começando!
 
-Quero te dizer hoje que estou renovando a minha vontade de estar e permanecer com você por toda a minha vida! Escolher ficar com alguém pode parecer uma decisão simples para quem vê de fora, mas nós sabemos que não é. É uma das escolhas mais difíceis e maduras que existem, pois adaptar-se, mudar e ceder por outra pessoa exige muito de nós. Mas, pelo carinho e pelo cuidado que Deus tem demonstrado com a sua vida e com a nossa história, eu quero continuar fazendo essa escolha todos os dias.
+Quero te dizer que hoje eu estou renovando a minha vontade de ficar com você por toda a minha vida. Então isso é, realmente, é uma das escolhas mais difíceis... porque permanecer com alguém não é fácil, se adaptar e mudar por uma pessoa é bem complicado, exige muito da gente. Mas pelo carinho e pelo cuidado que Deus tem com a sua vida, eu quero continuar fazendo essa escolha todos os dias.
 
-Hoje eu só quero reafirmar o quanto você é um presente direto de Deus na minha vida. Mesmo nos momentos em que estou te apoiando e ajudando, a verdade é que eu aprendo muito mais com você, meu amor. Você é uma instrução e inspiração para mim em tantas coisas... Quero te agradecer profundamente por tanta mudança, por cada detalhe que você modificou no seu jeito, primeiro por amor a Deus e depois por amor a mim. Essa sua transformação mudou tudo. Hoje eu te vejo com outros olhos; você tem um brilho diferente, mais maduro, mais radiante. Faça do dia de hoje um marco na sua vida!
+Quero só te reafirmar o quanto você é um presente de Deus pra mim, sério! Mesmo eu te ajudando muito, a verdade é que eu aprendo demais com você, amor... Você me inspira em tanta coisa. Quero te agradecer por cada detalhezinho que você mudou no seu jeito, primeiro por amor a Deus e depois por mim. Quando você fez isso, você transformou seu jeito totalmente e hoje eu te vejo com outros olhos, você tá com um brilho diferente... isso mudou literalmente TUDO!!
 
-Tenho uma gratidão imensa por quem você é. Você tem me deixado muito orgulhoso da mulher e companheira MARAVILHOSA que se tornou. Extremamente cuidadosa, batalhadora, uma mulher que busca os seus objetivos e que quer ser mais dependente de Deus a cada dia. Eu não só te apoio, como faço questão de estar ao seu lado em cada projeto, plano e sonho para o nosso futuro. Eu estou com você para o que der e vier, minha vida.
+Tenho tanta gratidão por você existir, você tem me deixado muito orgulhoso de você... Você é uma companheira MARAVILHOSA, extremamente cuidadosa, uma menina trabalhadora que corre atrás dos objetivos e busca depender de Deus a cada dia mais e mais.
 
-Que nós venhamos a ser muito felizes para sempre, crescendo juntos, evoluindo e mantendo sempre Deus no centro de tudo. Te amo muito, minha gata, minha vida!
-
-Construir essa vida ao seu lado é de longe o maior e mais bonito capítulo de toda a minha história. Obrigado por ser minha melhor amiga, minha cúmplice de aventuras e o amor da minha vida.
-
-Três anos se passaram como um sopro de felicidade, e ao mesmo tempo sinto como se te conhecesse de outras vidas. Que continuemos caminhando de mãos dadas, rindo das bobagens do cotidiano, descobrindo novos cafés e cultivando esse amor leve, sincero e inabalável que nos une.
-
-Eu te amo hoje, amanhã, nos próximos três anos e para todo o sempre.`}
+E eu, amor, não só te apoio em tudo como quero estar com você em todos os seus planos e projetos pro nosso futuro, tô do seu lado pra tudo mesmo! Que a gente venha a ser muito feliz pra sempre e com Deus no centro de tudo. Te amo demais, minha vida!`}
             </p>
 
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pt-6 border-t border-stone-100 dark:border-stone-800">
