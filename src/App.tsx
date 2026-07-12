@@ -218,19 +218,35 @@ export default function App() {
             <span className="font-serif italic text-2xl text-[#C49A6C] block mb-6 font-extrabold">Minha amada {settings.coupleName2},</span>
             
             <p className="text-stone-900 dark:text-stone-100 font-sans text-xs sm:text-sm leading-relaxed mb-6 whitespace-pre-line font-normal transition-colors duration-300">
-              {`TRÊS ANOS de nós, minha Princesa! S2
+              {`TRÊS ANOS de nós, minha Princesa! s2 
 
-Às vezes eu fico só te olhando e pensando: que linda, que linda, que linda meu Deus... Você é, de verdade, uma das melhores coisas que já aconteceu na minha vida, a mais linda de todas. Eu te amo demais, meu amor! Estar com você me dá uma certeza tão grande, você é minha luz, minha paz e meu refrigério... é o significado real e total do que é o amor pra mim. Foi com você que aprendi o que é amar de verdade, porque você é o meu primeiro amor, e vai ser o último... Vou ser pra sempre apaixonado por você e te olhar com todo o carinho do mundo, porque você merece o melhor de tudo, minha gata, minha vidaaaa...
+EU QUERO VOCÊ A CADA DIA QUE PASSA MÔRecoooo!
 
-Esses 3 anos de nós foram de muito aprendizado pra gente, né? A gente teve que consertar muitos pedaços quebrados, reatar laços, perdoar de verdade e ter uma paciência de outro mundo que a gente nem sabia que tinha. Tivemos que aprender a amar um outro no meio da dificuldade, no meio das discussões e quando as coisas pareciam meio confusas. A gente aprendeu muito a lidar com o jeito, as manias e o sentimento do outro. E o começo do nosso processo de amadurecimento tá só começando!
+Às vezes eu fico só te olhando e pensando: que linda, que linda, que linda meu Deusssss, perfeita demais como podee... Você é, de verdade, uma das melhores coisas que já aconteceu na minha vida, a mais linda de todas.
 
-Quero te dizer que hoje eu estou renovando a minha vontade de ficar com você por toda a minha vida. Então isso é, realmente, é uma das escolhas mais difíceis... porque permanecer com alguém não é fácil, se adaptar e mudar por uma pessoa é bem complicado, exige muito da gente. Mas pelo carinho e pelo cuidado que Deus tem com a sua vida, eu quero continuar fazendo essa escolha todos os dias.
+Eu te amo demais, meu amor!
 
-Quero só te reafirmar o quanto você é um presente de Deus pra mim, sério! Mesmo eu te ajudando muito, a verdade é que eu aprendo demais com você, amor... Você me inspira em tanta coisa. Quero te agradecer por cada detalhezinho que você mudou no seu jeito, primeiro por amor a Deus e depois por mim. Quando você fez isso, você transformou seu jeito totalmente e hoje eu te vejo com outros olhos, você tá com um brilho diferente... isso mudou literalmente TUDO!!
+Estar com você me dá uma certeza tão imensa, você é minha joia verdadeira, minha paz, alegria, minha seratonina diária e meu porto seguro... Foi com você que aprendi o que é amar de verdade, porque você é tudo pra mim amor... Vou ser pra sempre apaixonado por você e te olhar com todo o carinho do mundo, porque você merece o melhor de tudo, minha gata, minha vidaaaa...
 
-Tenho tanta gratidão por você existir, você tem me deixado muito orgulhoso de você... Você é uma companheira MARAVILHOSA, extremamente cuidadosa, uma menina trabalhadora que corre atrás dos objetivos e busca depender de Deus a cada dia mais e mais.
+Esses 3 anos de nós foram de muito aprendizado. A gente teve que consertar muitos detalhes e algumas descordancias ne kkkk e ter uma paciência de outro mundo que a gente nem sabia que tinha. Tivemos que aprender a amar um outro no meio da dificuldade, no meio das discussões e quando o caldo engrossava e ninguém abriria a mão e se render kkk NEEH. E o processo de amadurecimento é isso mesmo, errar, acertar, faz parte..
 
-E eu, amor, não só te apoio em tudo como quero estar com você em todos os seus planos e projetos pro nosso futuro, tô do seu lado pra tudo mesmo! Que a gente venha a ser muito feliz pra sempre e com Deus no centro de tudo. Te amo demais, minha vida!`}
+(eu choro a cada vez que vejo nossas fotos, separei 381 que mais gostei kkkkk das milharesss)
+
+Hoje quero dizer mais uma vez que sempre te quero, que sou louco maluco e birutamente apaixonado por você e, com isso, renovo a minha vontade de ficar com você por toda a minha vida. Obrigado pelo carinho e pelo cuidado que tem por mim, e agradeço muito a Deus pelo carinho e cuidado que Ele tem com a sua vida, quero te escolher todos os dias da minha Vida!
+
+Quero só te reafirmar o quanto você é um presente de Deus pra mim, mesmo em meio a tantos conflitos, aprendizado, a verdade é que eu aprendo demais com você. Quero te agradecer por cada mudança e pedido de socorro que você tem me ajudado a mudar e por tudo que continua fazendo. Eu te vejo com outros olhos, uma mulher diferente, uma pessoa única, com seu jeitinho que me encanta a cada dia que passa, você É meu Brilho...
+
+Tenho tanta gratidão por você existir, você tem me deixado muito orgulhoso de você... 
+
+Você é uma companheira ESPETACULAR, extremamente atenciosa, que se importa comigo, me faz me sentir especial e o último ´senhor bolachão do pacote´ KKKKKK me exaltando de bonito, lindo, blá blá blá.. eu sei kkkk, você é uma menina trabalhadora que corre atrás dos objetivos e busca Deus, me inspiro demais em você.
+
+Quero estar com você em todos os seus planos e projetos pro nosso futuro, que a nossa felicidade venha se acender a cada dia e ser viva pra sempre e com Deus no centro de tudo. 
+
+Te amo, Ludmila Cristine!
+
+Eu sou seu maior Fã!
+
+Com amor, seu Guigui`}
             </p>
 
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 pt-6 border-t border-stone-100 dark:border-stone-800">
